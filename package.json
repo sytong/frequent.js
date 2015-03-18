@@ -1,3 +1,21 @@
-"scripts": {
-    "test": "make test"
+{
+  "name": "frequent.js",
+  "version": "0.0.1",
+  "description": "A JavaScript implementation of the FREQUENT algorithm for identifying frequent items in a data stream in sliding window",
+  "author": "Willie Tong <tongsinyin@gmail.com>",
+  "scripts": {
+    "test": "nodeunit"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sytong/frequent.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sytong/frequent.js/issues"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  },
+  "private": true,
+  "license": "MIT"
+}
