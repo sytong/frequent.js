@@ -14,7 +14,7 @@
     "url": "https://github.com/sytong/frequent.js/issues"
   },
   "devDependencies": {
-    "nodeunit": "^0.9.1"
+    "nodeunit": "~0.9.1"
   },
   "private": true,
   "license": "MIT"
