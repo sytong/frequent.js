@@ -1,6 +1,6 @@
-# frequent [![Build Status](https://secure.travis-ci.org/sytong/frequent.js.png?branch=master)](http://travis-ci.org/sytong/frequent.js)
+# frequent.js [![Build Status](https://secure.travis-ci.org/sytong/frequent.js.png?branch=master)](http://travis-ci.org/sytong/frequent.js)
 
-`frequent` is a JavaScript implementation of the FREQUENT algorithm
+`frequent.js` is a JavaScript implementation of the FREQUENT algorithm
 for identifying frequent items in a data stream in sliding windows.
 Please refer to [Identifying Frequent Items in Sliding Windows over On-Line
 Packet Streams](http://erikdemaine.org/papers/SlidingWindow_IMC2003/), by
@@ -11,7 +11,7 @@ Install the module with: `npm install frequent`
 
 ```javascript
 var frequent = require('frequent');
-frequent.awesome(); // "awesome"
+_(Coming soon)_
 ```
 
 ## Documentation
