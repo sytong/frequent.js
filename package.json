@@ -1,21 +1,37 @@
 {
-  "name": "frequent.js",
-  "version": "0.0.1",
+  "name": "frequent",
   "description": "A JavaScript implementation of the FREQUENT algorithm for identifying frequent items in a data stream in sliding window",
-  "author": "Willie Tong <tongsinyin@gmail.com>",
-  "scripts": {
-    "test": "nodeunit"
+  "version": "0.0.1",
+  "homepage": "https://github.com/sytong/frequent.js",
+  "author": {
+    "name": "Willie Tong",
+    "email": "tongsinyin@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sytong/frequent.js"
+    "url": "https://github.com/sytong/frequent.js.git"
   },
   "bugs": {
     "url": "https://github.com/sytong/frequent.js/issues"
   },
-  "devDependencies": {
-    "nodeunit": "~0.9.1"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sytong/frequent.js/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/frequent",
+  "engines": {
+    "node": ">= 0.8.0"
   },
-  "private": true,
-  "license": "MIT"
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
 }
