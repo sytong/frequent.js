@@ -8,17 +8,19 @@ Golab, DeHaan, Demaine, L&#243;pez-Ortiz and Munro (2003).
 
 ## Getting Started
 Install the module with: `npm install frequent`
-
-```javascript
-var frequent = require('frequent');
-_(Coming soon)_
-```
+Run JSHint and nodeunit test with: `grunt`
 
 ## Documentation
-_(Coming soon)_
+Please refer to [`README.md`](https://github.com/sytong/frequent.js/blob/master/README.md) for now.
 
 ## Examples
-_(Coming soon)_
+```javascript
+var Frequent = require('frequent');
+var algorithm = new Frequent(20, 10, 3);
+algorithm.process([3,1,4,1,5,9,2,6,5,3]);  // {}
+algorithm.process([5,8,9,7,9,3,2,3,8,4]);  // {}
+algorithm.process([6,2,6,4,3,3,8,3,2,7]);  // { '3': 5 }
+```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
