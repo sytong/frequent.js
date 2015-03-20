@@ -8,6 +8,7 @@ Golab, DeHaan, Demaine, L&#243;pez-Ortiz and Munro (2003).
 
 ## Getting Started
 Install the module with: `npm install frequent`
+
 Run JSHint and nodeunit test with: `grunt`
 
 ## Documentation
